@@ -1,0 +1,119 @@
+body {
+    padding:0;
+    margin: 0;
+    background: #1F2937;
+ 
+}
+
+.generate {
+    margin-top:115px;
+    margin-left: 52px;
+}
+
+.t-heading {
+    width: 354px;
+}
+
+.t-heading  .white {
+    color: var(--white, #FFF);
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+}
+
+.t-heading  .green {
+    color: #4ADF86;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.supporting-text {
+    width: 372px;
+    color: var(--Medium-grey, #D5D4D8);
+
+/* text-xl/leading-7/font-normal */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+
+}
+
+
+
+.btn {
+    cursor: pointer;
+    border:none;
+    padding:0;
+    margin:0;
+
+    margin-top:51px;
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    background: #10B981;
+
+    color: var(--white, #FFF);
+
+/* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.btn:hover {
+    background-color: #23cc94;
+   
+}
+
+.btn:active {
+    transform: scale(0.95);
+
+}
+
+#horizontal-line {
+    width: 446px;
+    margin:35px 0;
+    border-bottom: 1px solid #2F3E53;           
+}
+
+.generated-passwords {
+    display: flex;
+}
+
+#gen-one {
+    margin-right: 24px;
+}
+
+#gen-one, #gen-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #273549;
+    color: #55F991;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+
+}
+

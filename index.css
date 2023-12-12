@@ -74,15 +74,13 @@ body {
     line-height: 24px; /* 150% */
 }
 
-.btn:hover {
-    background-color: #23cc94;
-   
-}
-
+.btn:hover,
 .btn:active {
+    background-color: #23cc94;
     transform: scale(0.95);
-
+    color: #1F2937;
 }
+
 
 #horizontal-line {
     width: 446px;
